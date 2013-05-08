@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Eat@THU</title>
+<script type="text/javascript" >
+function init()
+{
+var upleft;
+upleft = document.body.clientWidth;
+document.getElementById("updiv").style.left = upleft/2 + "px";
+}
+</script>
+<style type="text/css">
+#updiv {
+	background-color: #66CCFF;
+	width: 60px;
+	height: 200px;
+	position: absolute;
+}
+</style>
+</head>
+<body onload="init()">
+<div id="updiv"></div>
+</body>
+</html>
