@@ -19,7 +19,7 @@ document.getElementById("updiv").style.left = docwidth/2 + "px";
 }
 }
 </script>
-<link rel="stylesheet" type="text/css" href="ui.css" />
+<link type="style/css" href="ui.css" />
 </head>
 <body onload="init()">
 <div id="updiv"></div>
