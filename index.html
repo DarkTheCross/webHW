@@ -7,21 +7,28 @@
 function init()
 {
 var docwidth,docheight;
-docwidth = document.body.clientWidth;
+docwidth = document.body.scrollWidth;
 docheight = document.body.scrollHeight;
-if(docwidth<600 || docheight<400)
+if(docwidth<600 || docheight<600)
 {
-document.body.innerHTML = "<h1>To get better view of this website, please resize your browswe and refresh.</h1>";
+document.body.innerHTML = "<h1>To get better view of this website, please resize your browser.</h1>";
 }
 else
 {
 document.getElementById("updiv").style.left = docwidth/2 + "px";
+document.getElementById("updiv").style.bottom = docheight/2 + "px";
+document.getElementById("downdiv").style.right = docwidth/2 + "px";
+document.getElementById("downdiv").style.top = docheight/2 + "px";
+document.getElementById("leftdiv").style.bottom = docheight/2 + "px";
+document.getElementById("leftdiv").style.right = docwidth/2 + "px";
+document.getElementById("rightdiv").style.left = docwidth/2 + "px";
+document.getElementById("rightdiv").style.top = docheight/2 + "px";
 }
 }
 </script>
 <link rel="stylesheet" type="text/css" href="ui.css" />
 </head>
-<body onload="init()">
+<body onload="init()" onresize="init()">
 <div id="updiv"></div>
 <div id="leftdiv"></div>
 <div id="rightdiv"></div>
