@@ -7,13 +7,14 @@
 <script type="text/javascript" >
 function on_mouse_up()
 {
-$("#upsub1").fadeIn(500,function(){$("#upsub2").fadeIn(500,function(){$("#upsub3").fadeIn(500);});});
+$("#upsub1").fadeTo(500,0.8,function(){$("#upsub2").fadeTo(500,0.8,function(){$("#upsub3").fadeTo(500,0.8,function(){$("#upsub4").fadeTo(500,0.8)});});});
 }
 function mouse_out_up()
 {
-$("#upsub1").fadeOut(100);
-$("#upsub2").fadeOut(100);
-$("#upsub3").fadeOut(100);
+$("#upsub1").fadeTo(100,0);
+$("#upsub2").fadeTo(100,0);
+$("#upsub3").fadeTo(100,0);
+$("#upsub4").fadeTo(100,0);
 }
 </script>
 </head>
@@ -25,5 +26,6 @@ $("#upsub3").fadeOut(100);
 <div class="subdiv" id="upsub1"><div>&#x6843;&#x674E;&#x56ED;</div></div>
 <div class="subdiv" id="upsub2"><div>&#x4E01;&#x9999;&#x56ED;</div></div>
 <div class="subdiv" id="upsub3"><div>&#x6E05;&#x82AC;&#x56ED;</div></div>
+<div class="subdiv" id="upsub4"><div>&#x89C2;&#x7574;&#x56ED;</div></div>
 </body>
 </html>

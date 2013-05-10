@@ -41,13 +41,6 @@
 	padding: 10px;
 }
 
-.subdiv {
-	background-color: #AFD4E7;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /*IE8*/
-   filter:alpha(opacity=60);  /*IE5¡¢IE5.5¡¢IE6¡¢IE7*/
-   opacity: .6;
-}
-
 #upsub1{
 	padding: 15px;
 	padding-left: 20px;
@@ -75,6 +68,17 @@
 	padding-left: 20px;
 	right: 30%;
 	bottom: 65%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+
+#upsub4{
+	padding: 15px;
+	padding-left: 20px;
+	right: 30%;
+	bottom: 80%;
 	position: absolute;
 	width: 100px;
 	height: 50px;
