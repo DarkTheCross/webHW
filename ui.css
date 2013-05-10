@@ -1,26 +1,82 @@
 #updiv {
 	background-color: #66CCFF;
+	bottom: 50%;
+	left: 50%;
 	width: 200px;
 	height: 300px;
 	position: absolute;
+	margin: 3px;
+	padding: 10px;
 }
 #downdiv {
-	background-color: #E800FF;
+	background-color: #CC66FF;
+	top: 50%;
+	right: 50%;
 	width: 200px;
 	height: 300px;
 	position: absolute;
+	margin: 3px;
+	padding: 10px;
 }
 
 #leftdiv {
-	background-color: #FFB700;
+	background-color: #FFCC66;
+	right: 50%;
+	bottom: 50%;
 	width: 300px;
 	height: 200px;
 	position: absolute;
+	margin: 3px;
+	padding: 10px;
 }
 
 #rightdiv {
-	background-color: #C1FF00;
+	background-color: #CCFF66;
+	left: 50%;
+	top: 50%;
 	width: 300px;
 	height: 200px;
 	position: absolute;
+	margin: 3px;
+	padding: 10px;
+}
+
+.subdiv {
+	background-color: #AFD4E7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /*IE8*/
+   filter:alpha(opacity=60);  /*IE5¡¢IE5.5¡¢IE6¡¢IE7*/
+   opacity: .6;
+}
+
+#upsub1{
+	padding: 15px;
+	padding-left: 20px;
+	right: 48%;
+	bottom: 70%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+
+#upsub2{
+	padding: 15px;
+	padding-left: 20px;
+	right: 45%;
+	bottom: 85%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+
+#upsub3{
+	padding: 15px;
+	padding-left: 20px;
+	right: 30%;
+	bottom: 65%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
 }

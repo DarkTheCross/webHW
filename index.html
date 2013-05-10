@@ -2,36 +2,28 @@
 <html>
 <head>
 <title>Eat@THU</title>
-<link type="text/javascript" href="jquery-1.9.1.min.js"/>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="ui.css" />
 <script type="text/javascript" >
-function init()
+function on_mouse_up()
 {
-var docwidth,docheight;
-docwidth = document.body.scrollWidth;
-docheight = document.body.scrollHeight;
-if(docwidth<600 || docheight<600)
-{
-document.body.innerHTML = "<h1>To get better view of this website, please resize your browser.</h1>";
+$("#upsub1").fadeIn(500,function(){$("#upsub2").fadeIn(500,function(){$("#upsub3").fadeIn(500);});});
 }
-else
+function mouse_out_up()
 {
-document.getElementById("updiv").style.left = docwidth/2 + "px";
-document.getElementById("updiv").style.bottom = docheight/2 + "px";
-document.getElementById("downdiv").style.right = docwidth/2 + "px";
-document.getElementById("downdiv").style.top = docheight/2 + "px";
-document.getElementById("leftdiv").style.bottom = docheight/2 + "px";
-document.getElementById("leftdiv").style.right = docwidth/2 + "px";
-document.getElementById("rightdiv").style.left = docwidth/2 + "px";
-document.getElementById("rightdiv").style.top = docheight/2 + "px";
-}
+$("#upsub1").fadeOut(100);
+$("#upsub2").fadeOut(100);
+$("#upsub3").fadeOut(100);
 }
 </script>
-<link rel="stylesheet" type="text/css" href="ui.css" />
 </head>
-<body onload="init()" onresize="init()">
-<div id="updiv"></div>
-<div id="leftdiv"></div>
-<div id="rightdiv"></div>
-<div id="downdiv"></div>
+<body>
+<div id="updiv" onmouseover="on_mouse_up()" onmouseout="mouse_out_up()"><h1>&#x98DF;&#x5802;@THU</h1><h3>&#x5341;&#x591A;&#x6240;&#x98DF;&#x5802;</h3><h3>&#x603B;&#x6709;&#x4E00;&#x6B3E;&#x9002;&#x5408;&#x4F60;</h3></div>
+<div id="leftdiv"><h1>&#x540D;&#x5403;@THU</h1><h3>&#x4ECE;&#x5305;&#x5B50;&#x5230;&#x9999;&#x9505;</h3><h3>&#x5929;&#x5357;&#x6D77;&#x5317;&#x7F8E;&#x5473;&#x4EFB;&#x541B;&#x4EAB;</h3></div>
+<div id="rightdiv"><h1>&#x5C0F;&#x5E97;@THU</h1><h3>&#x591C;&#x9611;&#x5C0F;&#x6865;&#x542C;&#x6D41;&#x6C34;</h3><h3>&#x5174;&#x81F3;&#x963F;&#x725B;&#x996E;&#x4E00;&#x676F;</h3></div>
+<div id="downdiv"><h1>&#x4F5C;&#x8005;@THU</h1><h3>&#x5403;&#x8D27;&#x53EF;&#x4EE5;&#x4E0D;&#x662F;&#x5305;&#x5B50;&#x8138;&#x7684;</h3></div>
+<div class="subdiv" id="upsub1"><div>&#x6843;&#x674E;&#x56ED;</div></div>
+<div class="subdiv" id="upsub2"><div>&#x4E01;&#x9999;&#x56ED;</div></div>
+<div class="subdiv" id="upsub3"><div>&#x6E05;&#x82AC;&#x56ED;</div></div>
 </body>
 </html>
