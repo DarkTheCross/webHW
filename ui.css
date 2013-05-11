@@ -84,3 +84,47 @@
 	height: 50px;
 	display: none;
 }
+
+#leftsub1{
+	padding: 15px;
+	padding-left: 20px;
+	left: 48%;
+	bottom: 70%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+
+#leftsub2{
+	padding: 15px;
+	padding-left: 20px;
+	right: 53%;
+	bottom: 80%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+
+#leftsub3{
+	padding: 15px;
+	padding-left: 20px;
+	right: 65%;
+	bottom: 52%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+
+#leftsub4{
+	padding: 15px;
+	padding-left: 20px;
+	right: 70%;
+	bottom: 82%;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
