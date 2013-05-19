@@ -1,130 +1,59 @@
 #updiv {
 	background-color: #66CCFF;
-	bottom: 50%;
-	left: 50%;
+	bottom: 450px;
+	left: 500px;
 	width: 200px;
 	height: 300px;
 	position: absolute;
 	margin: 3px;
-	padding: 10px;
+	display: none;
 }
 #downdiv {
 	background-color: #CC66FF;
-	top: 50%;
-	right: 50%;
+	top: 450px;
+	right: 500px;
 	width: 200px;
 	height: 300px;
 	position: absolute;
 	margin: 3px;
-	padding: 10px;
+	display: none;
 }
 
 #leftdiv {
 	background-color: #FFCC66;
-	right: 50%;
-	bottom: 50%;
+	right: 500px;
+	bottom: 450px;
 	width: 300px;
 	height: 200px;
 	position: absolute;
 	margin: 3px;
-	padding: 10px;
+	display: none;
 }
 
 #rightdiv {
 	background-color: #CCFF66;
-	left: 50%;
-	top: 50%;
+	left: 500px;
+	top: 450px;
 	width: 300px;
 	height: 200px;
 	position: absolute;
 	margin: 3px;
-	padding: 10px;
-}
-
-#upsub1{
-	padding: 15px;
-	padding-left: 20px;
-	right: 48%;
-	bottom: 70%;
-	position: absolute;
-	width: 100px;
-	height: 50px;
 	display: none;
 }
 
-#upsub2{
-	padding: 15px;
-	padding-left: 20px;
-	right: 45%;
-	bottom: 85%;
-	position: absolute;
-	width: 100px;
-	height: 50px;
-	display: none;
+#maindiv {
+	position: relative;
+	width: 800px;
+	height:800px;
+	margin:0 auto;
 }
 
-#upsub3{
-	padding: 15px;
-	padding-left: 20px;
-	right: 30%;
-	bottom: 65%;
+#middiv {
 	position: absolute;
-	width: 100px;
-	height: 50px;
-	display: none;
+	margin: -50px 0 0 -100px;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 100px;
 }
 
-#upsub4{
-	padding: 15px;
-	padding-left: 20px;
-	right: 30%;
-	bottom: 80%;
-	position: absolute;
-	width: 100px;
-	height: 50px;
-	display: none;
-}
-
-#leftsub1{
-	padding: 15px;
-	padding-left: 20px;
-	left: 48%;
-	bottom: 70%;
-	position: absolute;
-	width: 100px;
-	height: 50px;
-	display: none;
-}
-
-#leftsub2{
-	padding: 15px;
-	padding-left: 20px;
-	right: 53%;
-	bottom: 80%;
-	position: absolute;
-	width: 100px;
-	height: 50px;
-	display: none;
-}
-
-#leftsub3{
-	padding: 15px;
-	padding-left: 20px;
-	right: 65%;
-	bottom: 52%;
-	position: absolute;
-	width: 100px;
-	height: 50px;
-	display: none;
-}
-
-#leftsub4{
-	padding: 15px;
-	padding-left: 20px;
-	right: 70%;
-	bottom: 82%;
-	position: absolute;
-	width: 100px;
-	height: 50px;
-	display: none;
-}

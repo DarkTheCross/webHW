@@ -1,13 +1,30 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-</head>
-<body>
-    <script src="jquery-1.9.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <h1>hahahaha</h1>
-</body>
+	<head>
+		<title>Eat@THU</title>
+		<link rel="stylesheet" type="text/css" href="ui.css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<script src="jquery-1.9.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" >
+		//when mouse in blocks, show hints.
+		function mouse_over_mid()
+		{
+			$("#updiv").fadeTo(300,1);
+			$("#leftdiv").fadeTo(300,1);
+			$("#rightdiv").fadeTo(300,1);
+			$("#downdiv").fadeTo(300,1);
+		}
+		
+		</script>
+	</head>
+	<body>
+		<div id="maindiv">
+			<div id="middiv"><a href="" onmouseover="mouse_over_mid()"><img src="img/index_mid.png" alt="" /></a></div>
+			<div id="updiv"><a href="" ><img src="img/index_shitang.png" alt="" /></a></div>
+			<div id="leftdiv"><a href="" ><img src="img/index_mingchi.png" alt="" /></a></div>
+			<div id="rightdiv"><a href="" ><img src="img/index_xiaodian.png" alt="" /></a></div>
+			<div id="downdiv"><a href="" ><img src="img/index_zuozhe.png" alt="" /></a></div>
+		</div>
+	</body>
 </html>
