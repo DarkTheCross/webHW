@@ -1,43 +1,37 @@
 #updiv {
-	background-color: #66CCFF;
 	bottom: 450px;
 	left: 500px;
 	width: 200px;
 	height: 300px;
 	position: absolute;
-	margin: 3px;
+	margin: 0 0 -14px 0;
 	display: none;
 }
 #downdiv {
-	background-color: #CC66FF;
 	top: 450px;
 	right: 500px;
 	width: 200px;
 	height: 300px;
 	position: absolute;
-	margin: 3px;
 	display: none;
 }
 
 #leftdiv {
-	background-color: #FFCC66;
 	right: 500px;
 	bottom: 450px;
 	width: 300px;
 	height: 200px;
 	position: absolute;
-	margin: 3px;
+	margin: 0 0 9px 0;
 	display: none;
 }
 
 #rightdiv {
-	background-color: #CCFF66;
 	left: 500px;
 	top: 450px;
 	width: 300px;
 	height: 200px;
 	position: absolute;
-	margin: 3px;
 	display: none;
 }
 
@@ -57,3 +51,18 @@
 	height: 100px;
 }
 
+#back_blacku {
+	background-color: #000000;
+	}
+	
+#back_blackl {
+	background-color: #000000;
+	}
+	
+#back_blackr {
+	background-color: #000000;
+	}
+
+#back_blackd {
+	background-color: #000000;
+	}
