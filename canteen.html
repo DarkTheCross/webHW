@@ -2,12 +2,60 @@
 <html>
 	<head>
 		<title>Eat@THU</title>
-		<link rel="stylesheet" type="text/css" href="ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/canteen_ui.css" />
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
-		<script src="jquery-1.9.1.min.js"></script>
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen"/>
+		<script src="js/jquery-1.9.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" >
+		$("document").ready(function(){
+			
+		});
+		</script>
 	</head>
 	<body>
-	<h1>This is the canteen index.</h1>
+		<div id="maindiv">
+			<div id="header">
+			<img src="img/banner_for_canteen.jpg" alt="" />
+			<div id="navbar-example" class="navbar navbar-static">
+              <div class="navbar-inner">
+                <div class="container" style="width: auto;">
+                  <a class="brand" href="#">&#x5403;x&#x6E05;&#x534E;</a>
+                  <ul class="nav" role="navigation">
+                    <li><a href="main_index.html" >&#x9996;&nbsp;&#x9875;</a></li>
+                    <li class="dropdown">
+                      <a id="drop1" href="canteen.html" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x98DF;&nbsp;&#x5802;<b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html">&#x6E05;&#x82AC;&#x56ED;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html">&#x6843;&#x674E;&#x56ED;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html">&#x7D2B;&#x8346;&#x56ED;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteenall.html">&#x542C;&#x6D9B;&#x56ED;</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="snack.html" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x540D;&nbsp;&#x5403;<b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x6E05;&#x82AC;&#x5305;&#x5B50;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x6587;&#x99A8;&#x9999;&#x9505;</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="shop.html" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x5C0F;&nbsp;&#x5E97;<b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x963F;&#x725B;&#x4E0E;&#x4ED9;&#x8349;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x5C0F;&#x6865;&#x70E7;&#x70E4;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">SPR&#x5496;&#x5561;</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="author.html" >&#x4F5C;&nbsp;&#x8005;</a>
+                    </li>
+                  </ul>
+            </div>
+			</div>
+		</div>
+		</div>
+			<div id="map"><img src="img/map.jpg" width="800" alt="" /></div>
+		</div>
 	</body>
 </html>

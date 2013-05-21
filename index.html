@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<title>Eat@THU</title>
-		<link rel="stylesheet" type="text/css" href="ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/ui.css" />
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
-		<script src="jquery-1.9.1.min.js"></script>
+		<script src="js/jquery-1.9.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" >
 		//when mouse over blocks.
@@ -98,12 +98,19 @@
 				$("#rightdiv").animate({margin:"0 0 0 700"},500);
 				$("#middiv").fadeTo(600,0,function(){window.location.assign("author.html");});
 			});
+			$("#midbtn").click(function(){
+				$("#leftdiv").animate({margin:"0 700 0 0"},500);
+				$("#downdiv").animate({margin:"500 0 0 0"},500);
+				$("#updiv").animate({margin:"0 0 500 0"},500);
+				$("#rightdiv").animate({margin:"0 0 0 700"},500);
+				$("#middiv").fadeTo(600,0,function(){window.location.assign("main_index.html");});
+			});
 		});
 		</script>
 	</head>
 	<body>
 		<div id="maindiv">
-			<div id="middiv"><a href="#" onmouseover="mouse_over_mid()"><img id="midimg" src="img/index_mid.png" alt=""/></a></div>
+			<div id="middiv"><a href="#" id="midbtn" onmouseover="mouse_over_mid()"><img id="midimg" src="img/index_mid.png" alt=""/></a></div>
 			<div id="updiv" ><a href="#" id="back_blacku" class="thumbnail" onmouseover="mouse_over_up()" onmouseout="mouse_out_up()"><img id="upimg" src="img/index_shitang.png" alt="" /></a></div> 
 			<div id="leftdiv"><a href="#" id="back_blackl" class="thumbnail" onmouseover="mouse_over_left()" onmouseout="mouse_out_left()"><img id="leftimg" src="img/index_mingchi.png" alt=""/></a></div>
 			<div id="rightdiv"><a href="#" id="back_blackr" class="thumbnail" onmouseover="mouse_over_right()" onmouseout="mouse_out_right()"><img id="rightimg" src="img/index_xiaodian.png" alt="" /></a></div>

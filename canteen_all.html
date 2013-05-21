@@ -4,11 +4,17 @@
 		<title>Eat@THU</title>
 		<link rel="stylesheet" type="text/css" href="css/canteen_ui.css" />
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen"/>
 		<script src="js/jquery-1.9.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" >
+		$("document").ready(function(){
+			
+		});
+		</script>
 	</head>
 	<body>
-	<div id="maindiv">
+		<div id="maindiv">
 			<div id="header">
 			<img src="img/banner_for_canteen.jpg" alt="" />
 			<div id="navbar-example" class="navbar navbar-static">
@@ -17,7 +23,7 @@
                   <a class="brand" href="#">&#x5403;x&#x6E05;&#x534E;</a>
                   <ul class="nav" role="navigation">
                     <li><a href="" >&#x9996;&nbsp;&#x9875;</a></li>
-                    <li class="dropdown">
+                    <li class="dropdown active">
                       <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x98DF;&nbsp;&#x5802;<b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x6E05;&#x82AC;&#x56ED;</a></li>
@@ -41,7 +47,7 @@
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#">SPR&#x5496;&#x5561;</a></li>
                       </ul>
                     </li>
-                    <li class="active">
+                    <li>
                       <a href="" >&#x4F5C;&nbsp;&#x8005;</a>
                     </li>
                   </ul>
@@ -49,7 +55,45 @@
 			</div>
 		</div>
 		</div>
-
+<div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/canteen1.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 color="#FFF">&#x62A5;&#x590D;&#x793E;&#x4F1A;</h1>
+              <p class="lead">&#x4E00;&#x5B9A;&#x8981;&#x5403;&#x996D;&#x7684;&#x65F6;&#x5019;&#x6765;&#x770B;&#x54E6;&#xFF01;</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/canteen2.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 color="#FFF">&#x62A5;&#x590D;&#x793E;&#x4F1A;2</h1>
+              <p class="lead">&#x4E00;&#x5B9A;&#x8981;&#x5403;&#x996D;&#x7684;&#x65F6;&#x5019;&#x6765;&#x770B;&#x54E6;&#xFF01;</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/canteen3.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>&#x62A5;&#x590D;&#x793E;&#x4F1A;3</h1>
+              <p class="lead">Hmmmm...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev" ><</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">></a>
+    </div>
+		<hr style="width: 800px; color: #eee" />		
+		<div class="featurette">
+        <img class="featurette-image pull-right" src="img/canteen_1.jpg">
+        <h2 class="featurette-heading">How hungry I am!</h2>
+        <p class="lead">It's 11:15am now...</p>
+      </div>		
 		</div>
 	</body>
 </html>
