@@ -16,6 +16,15 @@
 	<body>
 		<div id="maindiv">
 			<div id="header">
+		<script type="text/javascript" >
+		function floating()
+		{
+			if(document.body.scrollTop>200)
+				document.getElementById("navbar-example").style.top=document.body.scrollTop+"px";
+			else
+				document.getElementById("navbar-example").style.top="200px";
+		}
+		</script>
 			<img src="img/banner_for_canteen.jpg" alt="" />
 			<div id="navbar-example" class="navbar navbar-static">
               <div class="navbar-inner">
@@ -23,28 +32,34 @@
                   <a class="brand" href="#">&#x5403;x&#x6E05;&#x534E;</a>
                   <ul class="nav" role="navigation">
                     <li><a href="main_index.html" >&#x9996;&nbsp;&#x9875;</a></li>
-                    <li class="dropdown">
-                      <a id="drop1" href="canteen.html" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x98DF;&nbsp;&#x5802;<b class="caret"></b></a>
+                    <li class="dropdown active">
+                      <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x98DF;&nbsp;&#x5802;<b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html">&#x6E05;&#x82AC;&#x56ED;</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html">&#x6843;&#x674E;&#x56ED;</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html">&#x7D2B;&#x8346;&#x56ED;</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteenall.html">&#x542C;&#x6D9B;&#x56ED;</a></li>
+                      	<li role="presentation"><a role="menuitem" tabindex="-1" href="canteen.html">&#x98DF;&#x5802;&#x4E3B;&#x9875;</a></li>
+                      	<li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html#ct1">&#x6E05;&#x82AC;&#x56ED;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html#ct2">&#x6843;&#x674E;&#x56ED;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html#ct3">&#x7D2B;&#x8346;&#x56ED;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="canteen_all.html#ct4">&#x542C;&#x6D9B;&#x56ED;</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
-                      <a href="snack.html" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x540D;&nbsp;&#x5403;<b class="caret"></b></a>
+                      <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x540D;&nbsp;&#x5403;<b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x6E05;&#x82AC;&#x5305;&#x5B50;</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x6587;&#x99A8;&#x9999;&#x9505;</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="snack.html">&#x540D;&#x5403;&#x4E3B;&#x9875;</a></li>
+                      	<li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="snack_baozi.html">&#x6E05;&#x82AC;&#x5305;&#x5B50;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="snack_xiangguo.html">&#x6587;&#x99A8;&#x9999;&#x9505;</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
-                      <a href="shop.html" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x5C0F;&nbsp;&#x5E97;<b class="caret"></b></a>
+                      <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">&#x5C0F;&nbsp;&#x5E97;<b class="caret"></b></a>
                       <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x963F;&#x725B;&#x4E0E;&#x4ED9;&#x8349;</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">&#x5C0F;&#x6865;&#x70E7;&#x70E4;</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">SPR&#x5496;&#x5561;</a></li>
+                      	<li role="presentation"><a role="menuitem" tabindex="-1" href="shop.html">&#x5C0F;&#x5E97;&#x4E3B;&#x9875;</a></li>
+                      	<li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="shop_aniu.html">&#x963F;&#x725B;&#x4E0E;&#x4ED9;&#x8349;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="shop_xiaoqiao.html">&#x5C0F;&#x6865;&#x70E7;&#x70E4;</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="shop_spr.html">SPR&#x5496;&#x5561;</a></li>
                       </ul>
                     </li>
                     <li>
@@ -56,6 +71,27 @@
 		</div>
 		</div>
 			<div id="map"><img src="img/map.jpg" width="800" alt="" /></div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<hr style="width: 800px; color: #eee" />  
+      <div id="bottomdiv">
+	      <ul class="breadcrumb">
+	  			<li><a href="main_index.html">&#x9996;&#x9875;</a> <span class="divider">/</span></li>
+	  			<li class="active">&#x98DF;&#x5802;</li>
+			</ul>
+			<div id="authentation">
+			<p>Copyright&nbsp;&nbsp;fmx&nbsp;lxx&nbsp;&&nbsp;zsw</p>
+			<p>Thanks&nbsp;&nbsp;darkthecross&nbsp;workshop</p>
+			</div>
+      </div>
 		</div>
 	</body>
 </html>
