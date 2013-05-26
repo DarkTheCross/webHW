@@ -1,0 +1,13 @@
+进入界面(index)
+	主页(main_index)
+	食堂(canteen)
+		分别介绍(canteen_all)
+	名吃(snack)
+		清芬包子(snack_baozi)
+		文馨香锅(snack_xiangguo)
+	小店(shop)
+		小桥(shop_xiaoqiao)
+		SPR咖啡(shop_spr)
+		阿牛与仙草(shop_aniu)
+	作者(author)
+
